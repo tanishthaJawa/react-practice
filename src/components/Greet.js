@@ -1,11 +1,15 @@
 import React from 'react'
 
-const Greet = ({ name, age }) => {
+const Greet = ({ name, age, children }) => {
     return (
-        <h1>
-            Hello {name} ! <br />
-            Age: {age}
-        </h1>
+        <div>
+            <h1>
+                Hello {name} ! <br />
+                Age: {age}
+            </h1>
+            {children}
+        </div>
+
     );
 }
 

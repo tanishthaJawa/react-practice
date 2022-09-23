@@ -4,9 +4,13 @@ function App() {
 
   return (
     <div className="App">
-      <Greet name ="Alice" age ="10"/>
-      <Greet name ="Diana" age ="20" />
-      <Greet name ="Draco" age ="30"/>
+      <Greet name="Alice" age="10">
+        <p> This is child props</p>
+      </Greet>
+      <Greet name="Diana" age="20" >
+        <button>Action</button>
+      </Greet>
+      <Greet name="Draco" age="30" />
     </div>
 
   );
