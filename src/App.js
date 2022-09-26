@@ -4,12 +4,14 @@ import Message from "./components/Message";
 import Counter from "./Counter";
 import FunctionClick from "./components/FunctionClick";
 import ClassClick from "./components/ClassClick";
+import EventBinding from "./components/EventBinding";
 function App() {
 
   return (
     <div className="App">
-      <FunctionClick />
-      <ClassClick />
+      <EventBinding />
+      {/* <FunctionClick />
+      <ClassClick /> */}
       {/* <Greet name="Alice" age="10">
         <p> This is child props</p>
       </Greet>
@@ -22,8 +24,8 @@ function App() {
       <Welcome name="Diana" age="20" >
         <button>Action</button>
       </Welcome> */}
-      <Message />
-      <Counter />
+      {/* <Message />
+      <Counter /> */}
     </div>
 
   );
