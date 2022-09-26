@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div className="App">
-      {/* <Greet name="Alice" age="10">
+      <Greet name="Alice" age="10">
         <p> This is child props</p>
       </Greet>
       <Greet name="Diana" age="20" >
@@ -18,7 +18,7 @@ function App() {
       <Welcome name="Diana" age="20" >
         <button>Action</button>
       </Welcome>
-      <Message /> */}
+      <Message />
       <Counter />
     </div>
 
