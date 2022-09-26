@@ -2,11 +2,15 @@ import Greet from "./components/Greet"
 import Welcome from "./components/Welcome";
 import Message from "./components/Message";
 import Counter from "./Counter";
+import FunctionClick from "./components/FunctionClick";
+import ClassClick from "./components/ClassClick";
 function App() {
 
   return (
     <div className="App">
-      <Greet name="Alice" age="10">
+      <FunctionClick />
+      <ClassClick />
+      {/* <Greet name="Alice" age="10">
         <p> This is child props</p>
       </Greet>
       <Greet name="Diana" age="20" >
@@ -17,7 +21,7 @@ function App() {
       </Welcome>
       <Welcome name="Diana" age="20" >
         <button>Action</button>
-      </Welcome>
+      </Welcome> */}
       <Message />
       <Counter />
     </div>
