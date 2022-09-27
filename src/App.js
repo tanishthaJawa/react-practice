@@ -15,21 +15,25 @@ import Form from "./components/Form";
 import LifeCycleA from "./components/LifeCycleA";
 import FragmentDemo from "./components/FragmentDemo";
 import Table from "./components/Table";
+import PureComp from "./components/PureComp";
+import ParentComp from "./components/ParentComp";
+
 
 function App() {
 
   return (
     <div className="App">
-      {/* <FragmentDemo /> */}
+      <ParentComp />
+      {/* <FragmentDemo />
       <Table />
-      {/* <LifeCycleA /> */}
-      {/* <Form /> */}
-      {/* <Stylesheet primary={true} />
+      <LifeCycleA />
+      <Form />
+      <Stylesheet primary={true} />
       <h1 className="error">Error</h1>
-      <h1 className={styles.success}>Success</h1> */}
-      {/* <GreetUser /> */}
-      {/* <NamesList /> */}
-      {/* <EventBinding />
+      <h1 className={styles.success}>Success</h1>
+      <GreetUser />
+      <NamesList />
+      <EventBinding />
       <FunctionClick />
       <ClassClick />
       <Greet name="Alice" age="10">
