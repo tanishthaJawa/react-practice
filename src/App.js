@@ -8,12 +8,19 @@ import EventBinding from "./components/EventBinding";
 import ParentComponent from "./components/ParentComponent";
 import GreetUser from "./components/GreetUser";
 import NamesList from "./components/NamesList";
+import Stylesheet from "./components/Stylesheet";
+import styles from './components/appStyles.module.css'
+import "./components/appStyles.css"
+
 function App() {
 
   return (
     <div className="App">
+      <Stylesheet primary={true} />
+      <h1 className="error">Error</h1>
+      <h1 className={styles.success}>Success</h1>
       {/* <GreetUser /> */}
-      <NamesList />
+      {/* <NamesList /> */}
       {/* <EventBinding />
       <FunctionClick />
       <ClassClick />
