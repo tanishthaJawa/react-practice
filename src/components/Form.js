@@ -30,7 +30,7 @@ class Form extends Component {
         event.preventDefault()
     }
     render() {
-        const {username,food,comments} = this.state
+        const { username, food, comments } = this.state
         return (
             <form onSubmit={this.submitHandler}>
                 <div>
@@ -50,7 +50,7 @@ class Form extends Component {
                     </select>
                 </div>
                 <div>
-                    <button type ="submit">Submit</button>
+                    <button type="submit">Submit</button>
                 </div>
             </form>
         )

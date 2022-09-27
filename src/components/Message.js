@@ -8,7 +8,7 @@ class Message extends Component {
             message: 'Welcome Visitor!'
         }
     }
-    changeMessage(){
+    changeMessage() {
         this.setState({
             message: 'Thanks for Subscribing!'
         })
@@ -20,7 +20,7 @@ class Message extends Component {
                     {this.state.message}
 
                 </h1>
-                <button onClick={()=>this.changeMessage()}>Subscribe</button>
+                <button onClick={() => this.changeMessage()}>Subscribe</button>
             </div>
 
         )

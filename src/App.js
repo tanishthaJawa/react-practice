@@ -12,12 +12,14 @@ import Stylesheet from "./components/Stylesheet";
 import styles from './components/appStyles.module.css'
 import "./components/appStyles.css"
 import Form from "./components/Form";
+import LifeCycleA from "./components/LifeCycleA";
 
 function App() {
 
   return (
     <div className="App">
-      <Form />
+      <LifeCycleA />
+      {/* <Form /> */}
       {/* <Stylesheet primary={true} />
       <h1 className="error">Error</h1>
       <h1 className={styles.success}>Success</h1> */}
