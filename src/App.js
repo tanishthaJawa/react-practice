@@ -13,12 +13,16 @@ import styles from './components/appStyles.module.css'
 import "./components/appStyles.css"
 import Form from "./components/Form";
 import LifeCycleA from "./components/LifeCycleA";
+import FragmentDemo from "./components/FragmentDemo";
+import Table from "./components/Table";
 
 function App() {
 
   return (
     <div className="App">
-      <LifeCycleA />
+      {/* <FragmentDemo /> */}
+      <Table />
+      {/* <LifeCycleA /> */}
       {/* <Form /> */}
       {/* <Stylesheet primary={true} />
       <h1 className="error">Error</h1>
