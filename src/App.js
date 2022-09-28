@@ -1,7 +1,7 @@
 import Greet from "./components/Greet"
 import Welcome from "./components/Welcome";
 import Message from "./components/Message";
-import Counter from "./Counter";
+import Counter from "./components/Counter";
 import FunctionClick from "./components/FunctionClick";
 import ClassClick from "./components/ClassClick";
 import EventBinding from "./components/EventBinding";
@@ -23,19 +23,24 @@ import ForwadRefsParent from "./components/ForwadRefsParent";
 import PortalDemo from "./components/PortalDemo";
 import Hero from "./components/Hero";
 import ErrorBoundary from "./components/ErrorBoundary";
+import ClickCounter from "./components/ClickCounter";
+import HoverCounter from "./components/HoverCounter";
 
 
 function App() {
 
   return (
     <div className="App">
-      <ErrorBoundary>
+      <ClickCounter />
+      <HoverCounter />
+
+      {/* <ErrorBoundary>
         <Hero heroName="Batman" />
       </ErrorBoundary>
 
       <ErrorBoundary>
         <Hero heroName="Joker" />
-      </ErrorBoundary>
+      </ErrorBoundary> */}
 
 
 
